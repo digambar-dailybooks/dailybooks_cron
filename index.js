@@ -31,6 +31,7 @@ cron.schedule("*/10 * * * * *", function() {
     }); 
  }
 
+ 
   function sendEmail(){
     // create mail transporter
     let transporter = nodemailer.createTransport({
